@@ -1082,6 +1082,8 @@ textarea.contact__input {
   /* *HEADER* */
 
   .header .container {
+    display: flex;
+    justify-content: space-between;
     padding-inline: 20px 30px;
   }
 
@@ -1194,8 +1196,7 @@ textarea.contact__input {
   /* *REUSED STYLE* */
 
   .container,
-  .header,
-  .navbar {
+  .header {
     max-width: 1140px;
     width: 100%;
     margin-inline: auto;
